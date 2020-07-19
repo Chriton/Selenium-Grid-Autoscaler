@@ -22,4 +22,4 @@ We will build and push the docker image to the docker hub so we need to have an 
 docker build -t dorumuntean/selenium-grid-autoscaler .
 docker push dorumuntean/selenium-grid-autoscaler
 ```
- - The image should now be visible in your hub.docker.com page
+ - The image should now be visible in your hub.docker.com page and also for others to use eg. https://hub.docker.com/repository/docker/dorumuntean/selenium-grid-autoscaler
