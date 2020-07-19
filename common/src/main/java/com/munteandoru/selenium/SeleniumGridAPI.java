@@ -7,7 +7,7 @@ public class SeleniumGridAPI {
 
     private String debug;
     private String host;
-    private int        newSessionRequestCount;
+    private int newSessionRequestCount;
     private SlotCounts slotCounts;
 
     public String getDebug() {

@@ -39,8 +39,8 @@ public class HttpRequestHelper {
             SeleniumGridAPI customer = objectMapper.readValue(url, SeleniumGridAPI.class);
 
             // https://asky.io/
-            log.info("Selenium slotCounts -> free: {} ¯\\_(ツ)_/¯", customer.getSlotCounts().getFree());
             log.info("Selenium slotCounts -> total: {}", customer.getSlotCounts().getTotal());
+            log.info("Selenium slotCounts -> free: {} ¯\\_(ツ)_/¯", customer.getSlotCounts().getFree());
             log.info("Selenium newSessionRequestCount: {}", customer.getNewSessionRequestCount());
             //log.info(customer);
 
